@@ -15,3 +15,9 @@ poetry shell
 ```sh
 poetry install
 ```
+
+## To run the app
+
+```sh
+chainlit run src/app.py -w
+```

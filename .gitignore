@@ -1,0 +1,3 @@
+# Chainlit local configuration and temporary files
+.chainlit/
+.files/
