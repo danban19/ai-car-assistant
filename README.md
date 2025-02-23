@@ -1,44 +1,38 @@
-# AI Car Assistant
+# AI Car Assistant 🚗
+This project is an AI-powered car-recommender designed for a car retailing company. The assistant interacts with users by asking specific questions to understand car preferences like budget, type, fuel option, brand, and additional features. Based on the input, it suggests the best-matching cars along with their detailed specifications.
 
-AI car-recommender chat assistant for a car retailing company using LLM. The assistant engages with users, asking relevant questions to comprehend their car preferences such as budget, car type, fuel type, brand, or specific features. Upon capturing these responses, the assistant will suggest the most suitable cars with their specifications.
+## Installation
 
-# Installation Guide
+### 1. Install Poetry
+For installation instructions, refer to the [Poetry Documentation](https://python-poetry.org/docs/).
 
-## Install Poetry
-
-For detailed instructions, visit the [Poetry Documentation](https://python-poetry.org/docs/).
-
-## Activate Environment
-
+### 2. Activate the Environment
 ```sh
 poetry shell
 ```
 
-## Install Dependencies
-
+### 3. Install Dependencies
 ```sh
 poetry lock --no-update
-```
-
-```sh
 poetry install
 ```
 
-## Provide .env file
-Use env.example as a reference.
+### 4. Configure Environment Variables
+Create your `.env` file based on the `env.example` provided.
 
-## To run the app
-
+### 5. Run the Application
 ```sh
 chainlit run src/app.py -w
 ```
 
-## Linting and formating
+## Code Quality
 
+### Linting
 ```sh
 poetry run flake8 .
 ```
 
+### Formatting
 ```sh
 poetry run black .
 ```

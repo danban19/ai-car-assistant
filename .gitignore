@@ -1,6 +1,7 @@
 # Chainlit local configuration and temporary files
 .chainlit/
 .files/
+chainlit.md
 
 # Flake8 configuration
 .flake8
