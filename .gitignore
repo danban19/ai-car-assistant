@@ -8,3 +8,6 @@
 # Python bytecode
 **/__pycache__/
 **/*.py[co]
+
+# Env files
+.env

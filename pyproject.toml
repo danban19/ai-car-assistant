@@ -9,9 +9,10 @@ packages = []
 
 [tool.poetry.dependencies]
 python = "^3.12"
-chainlit = "^2.2.1"
 black = "^25.1.0"
+chainlit = "^2.2.1"
 flake8 = "^7.1.2"
+openai = "^1.64.0"
 
 [build-system]
 requires = ["poetry-core"]
