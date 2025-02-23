@@ -3,10 +3,14 @@ import chainlit as cl
 
 
 @cl.on_message
-async def main(message: cl.Message):
-    # Your custom logic goes here...
+async def main(message: cl.Message) -> None:
+    """Endpoint for handling messages.
+    Args:
+        message (cl.Message): The message
+    Returns:
+        None
+    """
 
-    # Send a response back to the user
     await cl.Message(
         content=f"Received: {message.content}",
     ).send()
