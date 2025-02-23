@@ -1,3 +1,10 @@
 # Chainlit local configuration and temporary files
 .chainlit/
 .files/
+
+# Flake8 configuration
+.flake8
+
+# Python bytecode
+__pycache__/
+*.pyc
